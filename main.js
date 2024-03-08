@@ -2,7 +2,7 @@ onload = () => {
     const c = setTimeout(() => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
-    }, 5000);
+    }, 4000);
   };
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -14,6 +14,6 @@ onload = () => {
       index = (index + 1) % titles.length;
     }
   
-    setInterval(changeTitle, 7000);
+    setInterval(changeTitle, 8000);
   });
   
