@@ -19,6 +19,7 @@ body {
   overflow: hidden;
   perspective: 1000px;
   position: relative;
+  text-align: center;
 }
 
 .night {
