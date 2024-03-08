@@ -1000,10 +1000,11 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 
 @media screen and (max-width:480px){
   #title{
+    display: flex;
     font-size: 28px;
     top: 50px;
     text-align: center;
-    padding: 10px;
+    margin: auto;
   
   }
   
