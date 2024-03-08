@@ -6,7 +6,7 @@ onload = () => {
   };
 
   document.addEventListener('DOMContentLoaded', function() {
-    const titles = ['Feliz dia de la mujer', 'para Juliana una mujer con una sonrisa encantadora', 'a la cual espero conocer mas y compartir con ella.'];
+    const titles = ['Feliz dia de la mujer', 'para Juliana una mujer con una sonrisa encantadora', 'a la cual espero conocer mas y compartir con ella'];
     let index = 0;
   
     function changeTitle() {
