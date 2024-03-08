@@ -1005,6 +1005,7 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
   #title{
     font-size: 28px;
     top: 20px;
+    padding: 10px 20px;
 
   
   }
