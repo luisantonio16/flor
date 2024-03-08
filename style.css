@@ -988,18 +988,20 @@ mask-image: linear-gradient(to top, transparent 40%, #079097 80%) !important;
 }
 
 #title{
+  display: block;
   font-size: 38px;
   color:#6DCABF;
   position: absolute;
   top: 40px;
   text-align: center;
   font-weight: bold;
+  margin: auto;
 
 }
 
 @media screen and (max-width:480px){
   #title{
-    display: flex;
+    display: block;
     font-size: 28px;
     top: 50px;
     text-align: center;
