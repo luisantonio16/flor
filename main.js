@@ -2,7 +2,7 @@ onload = () => {
     const c = setTimeout(() => {
       document.body.classList.remove("not-loaded");
       clearTimeout(c);
-    }, 4000);
+    }, 5000);
   };
 
   document.addEventListener('DOMContentLoaded', function() {
