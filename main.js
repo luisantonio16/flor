@@ -6,7 +6,7 @@ onload = () => {
   };
 
   document.addEventListener('DOMContentLoaded', function() {
-    const titles = ['para Juliana', 'Una mujer con una sonrisa encantadora',' y una voluntad inquebrantable', 'a la cual espero conocer mas y compartir con ella'];
+    const titles = ['para Juliana', 'Una mujer con una sonrisa encantadora',' y una voluntad inquebrantable', 'a la cual espero conocer mas y compartir con ella','Att: Luis'];
     let index = 0;
   
     function changeTitle() {
@@ -14,6 +14,6 @@ onload = () => {
       index = (index + 1) % titles.length;
     }
   
-    setInterval(changeTitle, 8000);
+    setInterval(changeTitle, 4000);
   });
   
